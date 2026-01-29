@@ -19,7 +19,7 @@ public class MCEFDownloadManager {
     private static final String JAVA_CEF_DOWNLOAD_URL =
             "${host}/mcef-cef/${java-cef-commit}/${platform}";
     private static final String JAVA_CEF_CHECKSUM_DOWNLOAD_URL =
-            "${host}/mcef-cef/${java-cef-commit}/${platform}/checksum";
+            "${host}/mcef-cef/${java-cef-commit}/checksum";
 
     private final String[] hosts;
     private final String javaCefCommitHash;
